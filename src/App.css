@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,800;1,400&display=swap');
+.App{
+  font-family: 'Poppins';
+}
+.navbar{
+  background-color: #EFEFEF;
+}
+.Welcome-text{
+  padding-top: 300px;
+}
+.Welcome {
+  background-image: url("./Images/Background-1.jpg");
+  width: 100%;
+  height: 100vh;
+}
+.Profile{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 200px;
+  border-radius: 50px;
+}
+
+.About{
+  background-image: url("./Images/white-concrete-wall.jpg");
+}
+.About h1 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 150px ;
+  padding-bottom: 50px;
+}
+.About .About-Wrapper{
+  height: 90vh;
+}
+.About .Images{
+  height: 420px;
+  border-radius: 10px;
+  box-shadow: 5px 15px 20px 1px #000;
+}
+
+.Service h1 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.Service{
+  height: 90vh;
+  background-image: url("./Images/white-concrete-wall.jpg");
+  padding-top: 100px;
+}
+.Service .Wrapper {
+  padding-top: 100px;
+}
+.Project h1 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.Contact .Whatsapp{
+  padding-bottom: 50px;
+}
+.Contact .Instagram{
+  padding-bottom: 50px;
+}
+.Contact .Gmail {
+  padding-bottom: 50px;
+}
+.Contact .Fiverr{
+  padding-bottom: 50px;  
+}
+.Contact{
+  text-align: center;
+  padding-top: 150px;
+  height: 90vh;
+  margin-bottom: 230px;
+}
+.Contact .List {
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.Contact .Link{
+  background-color: #000;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 14px;
+}
+.Contact .Link a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.Footer{
+  background-color: #000;
+  color: #EFEFEF;
+  height: 50vh;
+}
+.Footer a {
+  text-decoration: none;
+  color: white;
+}
+.Footer .List {
+  padding-top: 50px;
+}
+.Footer .Copyright {
+  text-align: center;
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  .Profile {
+    margin-top: -400px;
+    height: 220px;
+    margin-left: 100px;
+  }
+  .Welcome{
+    height: 70vh;
+  }
+  .About{
+    height: 100vh;
+  }
+  .About .Images{
+    height: 250px;
+    margin-left: 15px;
+  }
+  .About .Text {
+    margin-top: 50px;
+  }
+  .Service{
+    height: 130vh;
+  }
+  .Project .List{
+    margin-left: 40px;
+  }
+  .Project .Card {
+    padding-top: 20px;
+  }
+}
+@media only screen and (min-width : 760px) {
+  .Profile{
+    margin-left: 15px;
+  }
+  .Welcome {
+    height: 90vh;
+  }
+  .About .Images{
+    margin-left: 60px;
+  }
+  .About .Text{
+    margin-top: 50px;
+  }
+  .Project{
+    margin-left: 20px;
+  }
+  .Project .Card {
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  .Project h1{
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+}
